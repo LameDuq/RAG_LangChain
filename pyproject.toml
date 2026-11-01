@@ -1,0 +1,29 @@
+[project]
+name = "rag-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "LameDuq", email = "jonas.elfers@t-online.de" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "black>=26.10.1",
+    "isort>=9.0.2",
+    "langchain>=1.4.7",
+    "langchain-anthropic>=1.7.7",
+    "langchain-openai>=1.7.3",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+rag-langchain = "rag_langchain:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "black>=26.10.1",
+]

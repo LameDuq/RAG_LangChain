@@ -1,0 +1,135 @@
+# Geheimnisse und API-Keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+credentials.json
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+ENV/
+.python-env/
+
+# Python-Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C-Erweiterungen
+*.so
+*.pyd
+*.dll
+
+# Build und Paketierung
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+MANIFEST
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests und Coverage
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+.cache/
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+
+# Typprüfung und Linter
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Dokumentation
+docs/_build/
+site/
+
+# Vektordatenbanken und Indizes (RAG)
+chroma/
+chroma_db/
+.chroma/
+chroma_langchain_db/
+faiss_index/
+*.faiss
+qdrant_storage/
+lancedb/
+.lancedb/
+vectorstore/
+vector_store/
+
+# Modell- und Embedding-Caches
+.langchain.db
+.huggingface/
+.transformers_cache/
+.sentence_transformers/
+hf_cache/
+models/
+*.gguf
+*.safetensors
+
+# Logs und lokale Datenbanken
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Temporäre Dateien
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Editoren und IDEs
+.vscode/
+.idea/
+*.code-workspace
+.claude/settings.local.json
+
+# Betriebssysteme
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.Spotlight-V100
+.Trashes
